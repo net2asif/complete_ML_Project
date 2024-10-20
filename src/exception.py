@@ -3,6 +3,7 @@ import sys
 from src.logger import logging
 
 
+
 def error_handler(error,error_details:sys):
     _,_,exc_tb=error_details.exc_info()
     file_name=exc_tb.tb_frame.f_code.co_filename
