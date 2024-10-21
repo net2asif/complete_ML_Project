@@ -6,7 +6,7 @@ import sys
 from datetime import datetime
 from sklearn.model_selection import train_test_split
 import pandas as pd
-from src.components.data_trnsformation import DataTransformationConfig,DataTransformation
+from src.components.data_transformation import DataTransformationConfig,DataTransformation
 
 
 @dataclass #decorator
